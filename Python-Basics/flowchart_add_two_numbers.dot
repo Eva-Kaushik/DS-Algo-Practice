@@ -1,0 +1,14 @@
+
+digraph {
+    node [shape=box]
+    Start [shape=oval]
+    "Input two numbers, A and B" [shape=parallelogram]
+    "Add A and B, store in C" [shape=rectangle]
+    "Output C" [shape=parallelogram]
+    End [shape=oval]
+
+    Start -> "Input two numbers, A and B"
+    "Input two numbers, A and B" -> "Add A and B, store in C"
+    "Add A and B, store in C" -> "Output C"
+    "Output C" -> End
+}
